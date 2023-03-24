@@ -1,0 +1,144 @@
+.container {
+    width: 300px;
+    height: 80px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    
+  }
+/* target the scrollbar */
+.container::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+  }
+  
+  /* customize the track */
+  .container::-webkit-scrollbar-track {
+    background-color: rgb(231, 232, 233);
+    border-radius: 5px;
+  }
+  
+  /* customize the thumb */
+  .container::-webkit-scrollbar-thumb {
+    background-color: rgb(43,43,43);
+    border-radius: 5px;
+  }
+  
+  /* customize the thumb when it's hovered */
+  .container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+    background-color: rgb(231, 232, 233);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    border-radius: 0.4cm;
+    color: rgb(0, 134, 114);
+    font-weight: bold;
+    border: transparent;
+
+  }
+  .box:hover{
+    border: 2px solid rgb(43,43,43);
+
+  }
+
+  .box>div{
+    font-size: 10px;
+    width: inherit;  
+    font-weight: 10;
+ 
+}
+
+.btns2 {
+  position: relative;
+  background-color: transparent;
+  border-radius: 0.4cm;
+  width: 300px;
+  height: 45px;
+  border: 1.5px solid rgb(231, 232, 233);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-weight: 800;
+  color: rgb(0, 134, 114);
+}
+
+.inside2 {
+  display: flex;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 60px;
+  height: 45px;
+  border-radius: 0.4cm 0cm 0cm 0.4cm;
+  border: 0.5px solid rgb(231, 232, 233);
+  background-color: transparent;
+  
+}
+.inside2>img{
+  height: 50%;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+.inside_3{
+  float: right;
+  display:flex;
+  flex-direction:column;
+  width: 230px;
+    border-radius: 0cm 0.4cm 0.4cm 0cm;
+    
+    background-color:transparent;
+    top: -1px;
+    right: -1px;
+  
+    height: 43px;
+    justify-content:left;
+    color:white;
+    text-align:left;
+    font-size: 15x;
+    font-weight:200;
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(173, 175, 175);
+    align-items: center;
+    
+}
+
+
+.busname{
+  color: rgb(231, 232, 233);
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+table{
+  font-family: sans-serif;
+  color: rgb(231, 232, 233);
+ border-collapse:collapse;
+ 
+  
+}
+
+tr:hover{
+  background-color: rgb(173, 175, 175);
+
+}
+
+
+
