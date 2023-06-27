@@ -77,7 +77,29 @@ function changeImage() {
 
 }
 
-//bellow shoul handle the sroll box click
+//bellow is the change seat logic
+function btn(index) {
+  var image = document.getElementsByClassName("not-selected")[index];
+
+
+
+  if (image.src.match("../images/Empty_Seat.png")) {
+    image.src = "../images/Selected_Seat.png";
+    } 
+  
+  else if(image.src.match("../images/Booked_Seat.png")
+  ){  
+  }
+  else {
+    image.src = "../images/Empty_Seat.png";
+   
+    
+  }
+}
+
+
+
+
 
 
 
