@@ -1,188 +1,188 @@
 *{ 
-    margin: 0%;
-    
+  margin: 0%;
+  
 
 }
 .bod{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    min-width: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100px;
 
 }
 
 
 .all{
-   
-    display: flex; 
-    flex-direction: column;
-    min-height: fit-content;
-    margin: 0;
-    width: inherit;
-    min-width: fit-content;
+ 
+  display: flex; 
+  flex-direction: column;
+  min-height: fit-content;
+  margin: 0;
+  width: inherit;
+  min-width: fit-content;
 
 }
 
 
 .page {
-    background-color: rgb(0, 134, 114);
-    float: left;
-    border-color: rgb(43, 43, 43);
-    text-align: center
-    ;border-radius: 0;
-    font-size: large;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
- 
-    
-    
+  background-color: rgb(0, 134, 114);
+  float: left;
+  border-color: rgb(43, 43, 43);
+  text-align: center
+  ;border-radius: 0;
+  font-size: large;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+  
 }
 
 .btn{
-    background-color: rgb(231, 232, 233);
-    border-radius: 0.4cm;
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    border-color: transparent;
-    font-family: sans-serif;
-    font-size: 100%;
-    font-weight: 800;
-    color:rgb(0, 134, 114) ; 
-    
+  background-color: rgb(231, 232, 233);
+  border-radius: 0.4cm;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  border-color: transparent;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-weight: 800;
+  color:rgb(0, 134, 114) ; 
+  
 }
 
 
 .body{
-    font-family: sans-serif;
-    font-size: 25px;
-    color: rgb(231, 232, 233);
-    font-weight: bold;
-    
+  font-family: sans-serif;
+  font-size: 25px;
+  color: rgb(231, 232, 233);
+  font-weight: bold;
+  
 }
 
 .tripp_logo>img{
-    height: 100px;
-    
+  height: 100px;
+  
 }
 .Tripp_word{
 
-    text-align: left ; 
-    color: rgb(231, 232, 233); 
-    font-family: sans-serif; font-size: 200%; 
+  text-align: left ; 
+  color: rgb(231, 232, 233); 
+  font-family: sans-serif; font-size: 200%; 
 }
 .wordaftr_tripp{
-    color: rgb(231, 232, 233); 
-    font-family: sans-serif; 
-    font-size: 70%;
+  color: rgb(231, 232, 233); 
+  font-family: sans-serif; 
+  font-size: 70%;
 }
 
 .about {
-    background-color: rgb(0, 134, 114);
-    border-radius: 100%;
-    border-color: transparent;
-    color: rgb(231, 232, 233);
-    font-size: 20px;
-    font-weight: 800;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 20px; 
-  }
+  background-color: rgb(0, 134, 114);
+  border-radius: 100%;
+  border-color: transparent;
+  color: rgb(231, 232, 233);
+  font-size: 20px;
+  font-weight: 800;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 20px; 
+}
 
 
 .foot{
-    display: flex;
-    height: 10%;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  
 }
 .share
 {
-    display: flex;
-    gap: 20%;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+  
 }
 .image {
-    
-    display: flex;
-    flex-direction: row;
-    height: 25px;
-    
-    
+  
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  
+  
 }
 .class{
-    width: 300px;
-    height: 50px;
-    border-radius: 0.4cm;
+  width: 300px;
+  height: 50px;
+  border-radius: 0.4cm;
 }
 
 
 .btns {
-    position: relative;
-    background-color: transparent;
-    border-radius: 0.4cm;
-    width: 300px;
-    height: 45px;
-    border: 1.5px solid rgb(231, 232, 233);
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 100%;
-    font-weight: 800;
-    color: rgb(0, 134, 114);
-  }
-
-
-  .destination {
-    display:flex;
-    justify-content:right;
-    align-items: center;
-    font-family: sans-serif;
-    font-size: 65%;
-    font-weight: bold;
-    color: rgb(231, 232, 233);
-    gap: 15px;
-    margin-left: -50px;
-    
- 
-  }
-
-  
-   .destination > *:last-child {
-    margin-right: 0.5cm;
+  position: relative;
+  background-color: transparent;
+  border-radius: 0.4cm;
+  width: 300px;
+  height: 45px;
+  border: 1.5px solid rgb(231, 232, 233);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-weight: 800;
+  color: rgb(0, 134, 114);
 }
+
+
+.destination {
+  display:flex;
+  justify-content:right;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 65%;
+  font-weight: bold;
+  color: rgb(231, 232, 233);
+  gap: 15px;
+  margin-left: -50px;
   
-  .inside {
-    display: flex;
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    width: 60px;
-    height: 45px;
-    border-radius: 0.4cm 0cm 0cm 0.4cm;
-    border: 0.5px solid rgb(231, 232, 233);
-    background-color: transparent;
-  }
-  .inside>img{
-    height: 50%;
-    width: 35%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-  
-     
+
+}
+
+
+ .destination > *:last-child {
+  margin-right: 0.5cm;
+}
+
+.inside {
+  display: flex;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 60px;
+  height: 45px;
+  border-radius: 0.4cm 0cm 0cm 0.4cm;
+  border: 0.5px solid rgb(231, 232, 233);
+  background-color: transparent;
+}
+.inside>img{
+  height: 50%;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+   
 .btn > img{
 width:10%;
 height: 
@@ -191,117 +191,117 @@ height:
 }
 
 .inside_2{
-  float: right;
-  display:flex;
-  flex-direction:column;
-  width: 230px;
-    border-radius: 0cm 0.4cm 0.4cm 0cm;
-    
-    background-color:transparent;
-    top: -1px;
-    right: -1px;
+float: right;
+display:flex;
+flex-direction:column;
+width: 230px;
+  border-radius: 0cm 0.4cm 0.4cm 0cm;
   
-    height: 43px;
-    justify-content:left;
-    color:white;
-    text-align:left;
-    font-size: 15x;
-    font-weight:200;
-    margin-left: 10px;
-    font-size: 13px;
-    color: rgb(173, 175, 175);
+  background-color:transparent;
+  top: -1px;
+  right: -1px;
+
+  height: 43px;
+  justify-content:left;
+  color:white;
+  text-align:left;
+  font-size: 15x;
+  font-weight:200;
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(173, 175, 175);
 }
 .inside_02{
-  float: right;
-  display:flex;
-  width: 230px;
-    border-radius: 0cm 0.4cm 0.4cm 0cm;
-    
-    background-color:transparent;
-    top: -1px;
-    right: -1px;
+float: right;
+display:flex;
+width: 230px;
+  border-radius: 0cm 0.4cm 0.4cm 0cm;
   
-    height: 43px;
-    justify-content:left;
-    color: rgb(231, 232, 233);
-    text-align:left;
-    font-size: 15x;
-    font-weight:200;
-    align-items: center;
-    font-size: 15px;
-    gap:10%;
-    margin-left: 10px;
-    
+  background-color:transparent;
+  top: -1px;
+  right: -1px;
+
+  height: 43px;
+  justify-content:left;
+  color: rgb(231, 232, 233);
+  text-align:left;
+  font-size: 15x;
+  font-weight:200;
+  align-items: center;
+  font-size: 15px;
+  gap:10%;
+  margin-left: 10px;
+  
 
 }
 
 .inside_2> input,.inside> select{
+background-color:transparent;
+border:transparent;
+width:95%;
+color: rgb(231, 232, 233);
+
+}
+select{
+  color: rgb(231, 232, 233);
+  
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgb(231, 232, 233);
+}
+
+
+
+select option{
+  background-color: rgb(43, 43, 43);
+}
+input:focus,select:focus {
+  outline: none;
+}
+
+.inner{
+  display: flex;
+  justify-content: right;
+  
+  gap: 5%;
+  align-items: center;
+}
+.inner>button{
+ 
+  background-color: transparent;
+
+  height: 50%;
+  border: transparent;
+  align-content: center;
+  width: fit-content;
+    
+  
+}
+
+.inner>button>img:hover{
+ 
+  border:1px solid rgb(43, 43, 43);
+  border-radius:5px;
+  
+}
+
+
+
+
+
+.inner>button>img{
+  
+
+  width: 80%;
+
+}
+
+.inside_2> select{
   background-color:transparent;
   border:transparent;
   width:95%;
-  color: rgb(231, 232, 233);
 
-  }
-  select{
-    color: rgb(231, 232, 233);
-    
-  }
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    color: rgb(231, 232, 233);
-  }
-  
-  
-
-  select option{
-    background-color: rgb(43, 43, 43);
-  }
-  input:focus,select:focus {
-    outline: none;
-  }
-  
-  .inner{
-    display: flex;
-    justify-content: right;
-    
-    gap: 5%;
-    align-items: center;
-  }
-  .inner>button{
-   
-    background-color: transparent;
-
-    height: 50%;
-    border: transparent;
-    align-content: center;
-    width: fit-content;
-      
-    
-  }
-
-  .inner>button>img:hover{
-   
-    border:1px solid rgb(43, 43, 43);
-    border-radius:5px;
-    
-  }
-
-  
-
-  
-
-  .inner>button>img{
-    
-
-    width: 80%;
-
-  }
-
-  .inside_2> select{
-    background-color:transparent;
-    border:transparent;
-    width:95%;
-
-  } 
+} 
 .left_icon{
 width:20%;
 display: flex;
@@ -311,10 +311,10 @@ text-align: center;
 
 }
 .left{
-    min-height: 70px;
-    width: 5%;
-    display:flex;
-    background-color: rgb(231, 232, 233);
+  min-height: 70px;
+  width: 5%;
+  display:flex;
+  background-color: rgb(231, 232, 233);
 flex-direction: column;
 align-items: center;
 gap: 10%;
@@ -323,85 +323,85 @@ min-width: 50px;
 }
 
 .left>a>img{
-  
-  width: 70%;
-  align-items: center;
+
+width: 70%;
+align-items: center;
 
 }
 .left>a>img:hover {
-  
-  border: 1px solid rgb(43, 43, 43);
-  border-radius: 100%;
-  height: 30px;
-  width: 30px;
+
+border: 1px solid rgb(43, 43, 43);
+border-radius: 100%;
+height: 30px;
+width: 30px;
 }
 
 
 .left>a{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 
 }
 .left>a :hover{
-  width:100%;
-  background-color: rgb(43, 43, 43);
-  border: 3px rgb(43, 43, 43);
+width:100%;
+background-color: rgb(43, 43, 43);
+border: 3px rgb(43, 43, 43);
 
 }
 
-  
-  .openbtn:hover {
-    background-color: rgb(43, 43, 43);
-    color: rgb(231, 232, 233);
-  }
-  .sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(43, 43, 43);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: rgb(231, 232, 233);
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidebar a:hover {
-    color:rgb(231, 232, 233);
-  }
-  
-  .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
 
-  .men{
-    float:left;
-    justify-content:left;
-    align-items:left
-  }
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    float: left; /* set the float property to left */
-    background-color: rgb(231, 232, 233) ;
-    color: rgb(43, 43, 43);
-    padding: 10px 15px;
-    border: none;
-    margin: 10px; /* adjust the margin to position the button */
-    border-radius:100%;
-  
-  }
+.openbtn:hover {
+  background-color: rgb(43, 43, 43);
+  color: rgb(231, 232, 233);
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(43, 43, 43);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(231, 232, 233);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color:rgb(231, 232, 233);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.men{
+  float:left;
+  justify-content:left;
+  align-items:left
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  float: left; /* set the float property to left */
+  background-color: rgb(231, 232, 233) ;
+  color: rgb(43, 43, 43);
+  padding: 10px 15px;
+  border: none;
+  margin: 10px; /* adjust the margin to position the button */
+  border-radius:100%;
+
+}
